@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Follow the Hearts Maze – Happy Birthday Rishi!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🎂 Follow the Hearts to Find Vaish! 🎈</h1>
+
+  <div id="maze-container">
+    <canvas id="maze" tabindex="0"></canvas>
+  </div>
+
+  <div id="message"></div>
+
+  <div id="code-entry">
+    <p>You found Vaish! Enter the secret code to receive your present:</p>
+    <input type="text" id="secret-code" placeholder="_ _ _ _ _ _ _ _ _">
+    <button id="submit-code">Unlock Gift</button>
+    <p id="code-feedback"></p>
+  </div>
+
+  <div id="gift">
+    <h2>🎁 Happy Birthday Rishi! 🎁</h2>
+    <p>Here's your special surprise from Vaish 💖</p>
+    <div class="video-wrapper">
+  <video width="100%" height="auto" controls>
+    <source src="assets/bdayvid.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <p>If the video doesn’t play, <a href="assets/bdayvid.mp4" download>click here to download it</a>.</p>
+</div>
+    <p>With all my love, Vaish 💖</p>
+  </div>
+
+  <script src="maze.js"></script>
+</body>
+</html>
